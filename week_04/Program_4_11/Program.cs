@@ -33,7 +33,7 @@ namespace Program_4_11
             {
                 if (!int.TryParse(Console.ReadLine(), out int number))
                 {
-                    Console.WriteLine("To nie jest liczba całkowita");
+                    Console.WriteLine("To nie jest liczba całkowita. Spróbuj jeszcze raz.");
                     continue;
                 }
                 return number;
